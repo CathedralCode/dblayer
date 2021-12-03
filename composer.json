@@ -1,0 +1,19 @@
+{
+    "name": "cathedral/dblayer",
+    "description": "Metapackage: builder in dev and db (runtime) in prod.",
+    "type": "metapackage",
+    "require": {
+        "cathedral/db": "dev-develop"
+    },
+    "require-dev": {
+        "cathedral/builder": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philip Michael Raab",
+            "email": "peep@cathedral.co.za"
+        }
+    ],
+    "minimum-stability": "dev"
+}
